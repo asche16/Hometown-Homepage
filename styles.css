@@ -1,0 +1,118 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+
+   
+    padding: 5px 5px 5px;
+    border: 1px solid white;
+    border-radius: 8px;
+    
+
+    
+}
+
+img {
+    width: 150px;
+    border-radius: 15px;
+    padding: 10px 10px 1px;
+}
+.hero-section {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("images/Meskel-Square.jpg");
+    background-size: cover;
+    color: white;
+    height: 180px;
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
+   
+}
+#visit-addis {
+    background: #457b9d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 25px 0 10px 0;
+    font-weight: 700;
+    font-size: 25px;
+    
+    
+
+}
+#about {
+    background: #003049;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    width: 350px;
+    font-weight: 50;
+    font-size: 15px;
+    
+}
+.main1 {
+     
+     background-color: #f1faee;
+     font-family: 'Arima', cursive, cursive, Oxygen, sans-serif;
+     justify-content: space-between;
+     align-items: center;
+     display: flex;
+     flex-direction: row; 
+     color: #001219;
+     padding: 1px 0px 10px;
+     
+     
+}
+.activities-section {
+     background-color: #f1faee;
+     font-family: 'Arima', cursive, cursive, Oxygen, sans-serif;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row; 
+     color: #023047;
+     padding: 5px 0px 10px; 
+}
+.guide-section {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #457b9d;
+    color: #fdfffc;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 10px 20px;
+    border: 0px solid #003049;
+    border-radius: 6px;
+    border-bottom: 5px solid #264653;
+    width: 400px;
+    
+    
+}
+#guide {
+       margin-right: auto;
+       margin-left: auto;
+       padding: 5px 10px 5px;
+}
+
+
+
+
+.item {
+    margin: 20px  30px 20px;
+    border-radius: 100px;
+}
